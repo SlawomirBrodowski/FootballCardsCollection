@@ -1,0 +1,3 @@
+Prosze przekopiowac katalog dane na dysk C:\
+Program do prawidlowego dzialania potrzebuje pliku my-collection.txt w nastepujacej sciezce:
+c:\dane\my-collection.txt

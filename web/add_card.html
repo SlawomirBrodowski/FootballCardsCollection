@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dodaj karte</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 align='center'>Dodaj karte</h1>
+        <form action='add_card.do' method='POST'>
+            <table width='50%' cellspacing='2' cellpadding='10'>
+                <tr>
+                    <td width='30%'>
+                        Pilkarz(Imie i nazwisko):   
+                    </td>
+                    <td>
+                        <input type='text' name='playerName'> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Klub(Nazwa klubu):     
+                    </td>
+                    <td>
+                        <input type='text' name='clubName'> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Obrona punkty(wpisz numer z karty):     
+                    </td>
+                    <td>
+                        <input type='text' name='defencePowerPoints'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Kontrola punkty(wpisz numer z karty):     
+                    </td>
+                    <td>
+                        <input type='text' name='controlPowerPoints'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Atak punkty(wpisz numer z karty):     
+                    </td>
+                    <td>
+                        <input type='text' name='attackPowerPoints'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Liga:     
+                    </td>
+                    <td>
+                        <select name='league'>
+                            <option value='Fifa 365'>FIFA 365</option>
+                            <option value='Uefa'>UEFA CHAMPIONSHIP</option>
+                        </select>
+                        <input type='submit' value='Dodaj'>
+                    </td>
+                </tr>
+            </table>
+        </form>      
+    </body>
+</html>
