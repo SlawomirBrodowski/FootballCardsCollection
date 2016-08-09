@@ -10,9 +10,10 @@ public class CARDCollection {
     private List cardCollection;
     private List leagueList;
 
-    public CARDCollection(String dataDirectory) {
+   public CARDCollection(String dataDirectory) {
+      
         // Initialize data directory and collection file
-        this.collectionFile = new File(dataDirectory, "my-collection.txt");
+        this.collectionFile = new File(dataDirectory,"my-collection.txt");
       
         this.cardCollection = new ArrayList();
         readFile();

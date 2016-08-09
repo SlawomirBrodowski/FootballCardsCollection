@@ -3,7 +3,7 @@
     <context-param>
 
         <param-name>data-directory</param-name>
-        <param-value>.\FootballCardsCollection\web</param-value>
+        <param-value>c:\dane</param-value>
 
     </context-param>
     <listener>
