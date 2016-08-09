@@ -1,2 +1,2 @@
 # FootballCardsCollection
-Maven application example - online football cards collection polish UI
+Java EE application example - online football cards collection polish UI
