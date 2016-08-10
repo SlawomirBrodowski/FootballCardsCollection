@@ -1,2 +1,2 @@
 # FootballCardsCollection
-Java EE application example - online football cards collection polish UI
+NetBeans Web Project example - online football cards collection polish UI
